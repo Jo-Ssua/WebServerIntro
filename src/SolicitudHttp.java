@@ -24,7 +24,6 @@ public class SolicitudHttp implements Runnable {
     private void proceseSolicitud() throws Exception {
         //goku fase 1
         InputStream inputStream = socket.getInputStream();
-        OutputStream outputStream = socket.getOutputStream();
 
         //goku fase 4
         BufferedReader in = new BufferedReader(new InputStreamReader(inputStream));
